@@ -1,12 +1,12 @@
-# 🛒 Market Basket Analysis of Café Transactions
+# Market Basket Analysis of Café Transactions
 
-## 📊 Project Overview
+## Project Overview
 
 This project applies **Market Basket Analysis (MBA)** using the **Apriori algorithm** to uncover meaningful product associations from a café's transactional data. The dataset contains timestamped transactions of various product types (e.g., barista espresso, scone, regular syrup), enabling us to explore buying patterns and generate actionable business insights.
 
 ---
 
-## 🧾 Dataset Description
+## Dataset Description
 
 The dataset contains **149,116** transaction records with the following columns:
 
@@ -24,18 +24,18 @@ The dataset contains **149,116** transaction records with the following columns:
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
-### 🔹 Preprocessing
+### Preprocessing
 - Merged `transaction_date` and `transaction_time` to create a unified timestamp.
 - Grouped products by `timestamp` to simulate individual customer baskets.
 - Pivoted the dataset using one-hot encoding to create a basket matrix of product types.
 
-### 🔹 Applying Apriori
+### Applying Apriori
 - Used `mlxtend` to apply the **Apriori algorithm** with a defined `min_support` threshold.
 - Generated association rules using `support`, `confidence`, and `lift`.
 
-### 🔹 Filtering & Interpretation
+### Filtering & Interpretation
 - Rules were filtered and sorted by highest **lift** and **confidence** to prioritize meaningful insights.
 
 ---
@@ -51,7 +51,7 @@ The dataset contains **149,116** transaction records with the following columns:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The project includes the following visualizations:
 - **Bar charts** showing most frequent product combinations
@@ -61,7 +61,7 @@ The project includes the following visualizations:
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 - **Bundle** syrups with espresso to increase revenue.
 - Offer **targeted promotions** for sugar-free options to health-conscious customers.
@@ -70,7 +70,7 @@ The project includes the following visualizations:
 
 ---
 
-## 🛠️ Tools & Libraries Used
+## Tools & Libraries Used
 
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn)
 - **mlxtend** – For the Apriori algorithm and rule generation
@@ -80,9 +80,9 @@ The project includes the following visualizations:
 ---
 
 
-## ✅ Project Status
+## Project Status
 
-✅ Completed. The analysis has been successfully carried out and visualized. You can explore and extend it further by:
+ Completed. The analysis has been successfully carried out and visualized. You can explore and extend it further by:
 - Changing the minimum support threshold
 - Trying 3-item association rules
 - Comparing product associations by time or location
