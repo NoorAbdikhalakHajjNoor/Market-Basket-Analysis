@@ -40,7 +40,7 @@ The dataset contains **149,116** transaction records with the following columns:
 
 ---
 
-## 📌 Key Findings
+##  Key Findings
 
 | Rule | Insight |
 |------|---------|
