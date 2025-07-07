@@ -75,7 +75,6 @@ The project includes the following visualizations:
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn)
 - **mlxtend** – For the Apriori algorithm and rule generation
 - **Jupyter Notebook** – Development environment
-- **Tableau** – For advanced and interactive dashboard visualizations
 
 ---
 
